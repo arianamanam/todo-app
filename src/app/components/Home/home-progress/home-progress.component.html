@@ -1,0 +1,44 @@
+<div
+  class="font-sans text-slate-50 items-center bg-gradient-to-r rounded-3xl from-cyan-500 to-blue-500 p-6"
+>
+  <div>
+    <h2 class="font-normal text-lg justify-between gap-1">
+      Today's progress summery
+    </h2>
+    <span class="text-xs font-normal">15 Tasks</span>
+  </div>
+  <div class="flex items-center gap-16 w-full mt-5">
+    <div class="relative w-[30%] sm:w-2/5">
+      @for (imageList of imagesList; track $index) {
+      <img
+       
+        [src]="imageList.src"
+        alt="avatar"
+        [ngClass]="[
+          'size-11',
+          'rounded-circle',
+          'rounded-full',
+          'border-2',
+          'border-white',
+          'absolute',
+          '-bottom-4'
+        ]"
+        [style.left.px]="$index * 24"
+      />
+      }
+      <!-- Math.pow(2, $index - 1) * 6 -->
+    </div>
+    <div class="mx-auto w-40">
+      <div class="flex justify-between">
+        <p class="font-sans text-sm">Progress</p>
+        <span>50%</span>
+      </div>
+      
+
+      <div class="w-full bg-[#76A9E0] rounded-full h-2.5 mb-4">
+        <div class="bg-white h-2.5 rounded-full" style="width: 50%"></div>
+      </div>
+      <div class="flex justify-between text-sm text-white"></div>
+    </div>
+  </div>
+</div>

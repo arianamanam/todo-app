@@ -1,6 +1,4 @@
-<div class="flex gap-2 items-center px-5 justify-between py-10">
-  <button class="bg-gray-100 rounded-lg size-10 mx-6">
-    <svg
+ <svg
       width="40px"
       height="40px"
       viewBox="-9.03 -9.03 39.06 39.06"
@@ -42,68 +40,3 @@
         </g>
       </g>
     </svg>
-  </button>
-  <h1 class="font-sans text-xl font-bold items-center">Homepage</h1>
-  <button class="bg-gray-100 rounded-lg size-10 mx-6">
-    <svg
-      width="40px"
-      height="40px"
-      viewBox="-8.64 -8.64 41.28 41.28"
-      class=""
-      id="_24x24_On_Light_Notification-Alert"
-      data-name="24x24/On Light/Notification-Alert"
-      xmlns="http://www.w3.org/2000/svg"
-      fill="#000000"
-      stroke="#000000"
-      stroke-width="0.00024000000000000003"
-    >
-      <g id="SVGRepo_bgCarrier" stroke-width="0" />
-      <g
-        id="SVGRepo_tracerCarrier"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-      />
-      <g id="SVGRepo_iconCarrier">
-        <rect id="view-box" width="24" height="24" fill="none" />
-        <path
-          id="Shape"
-          d="M6,17v-.5H2.25A2.253,2.253,0,0,1,0,14.25v-.382a2.542,2.542,0,0,1,1.415-2.289A1.247,1.247,0,0,0,2.1,10.572l.446-4.91A6.227,6.227,0,0,1,10.618.286a5.477,5.477,0,0,0-.635,1.374A4.794,4.794,0,0,0,8.75,1.5,4.7,4.7,0,0,0,4.045,5.8L3.6,10.708A2.739,2.739,0,0,1,2.089,12.92a1.055,1.055,0,0,0-.589.949v.382A.751.751,0,0,0,2.25,15h13A.751.751,0,0,0,16,14.25v-.382a1.053,1.053,0,0,0-.586-.948A2.739,2.739,0,0,1,13.9,10.708l-.2-2.18a5.473,5.473,0,0,0,1.526.221l.166,1.822a1.26,1.26,0,0,0,.686,1.005,2.547,2.547,0,0,1,1.418,2.29v.382a2.252,2.252,0,0,1-2.25,2.25H11.5V17A2.75,2.75,0,0,1,6,17Zm1.5,0A1.25,1.25,0,0,0,10,17v-.5H7.5ZM15.047,6.744A3.486,3.486,0,0,1,13.5,6.28L13.456,5.8a4.7,4.7,0,0,0-1.648-3.185,3.5,3.5,0,0,1,.61-1.417A6.221,6.221,0,0,1,14.95,5.662l.1,1.081v0Z"
-          transform="translate(3.25 2.25)"
-          fill="#878787"
-        />
-        <path
-          id="Shape-2"
-          data-name="Shape"
-          d="M3.5,7A3.5,3.5,0,1,1,7,3.5,3.5,3.5,0,0,1,3.5,7Z"
-          transform="translate(15 2)"
-          fill="#f43325"
-        />
-      </g>
-    </svg>
-  </button>
-</div>
-
-<div
-  class="font-sans text-slate-50 items-center bg-gradient-to-r rounded-xl mx-12 pt-4 pl-3 from-cyan-500 to-blue-500"
->
-  <h2 class="font-normal text-lg justify-between">Today's progress summery</h2>
-  <span class="text-xs font-normal">15 Tasks</span>
-  <div>
-    <div class="flex">
-        @for (imageList of imageList; track $index) {
-            <img [src]="imageList.src" alt="avatar"  class="size rounded-circle rounded-full w-[50px]">
-        }
-    </div>
-    <div class="container mx-auto p-4">
-      <h1 class="font-sans text-sm mb-2">Progress</h1>
-      <div class="w-full bg-[#76A9E0] rounded-full h-4 mb-4">
-        <div class="bg-white h-4 rounded-full" style="width: 50%"></div>
-      </div>
-      <div class="flex justify-between text-sm text-white">
-        <span></span>
-        <span>50%</span>
-        <span></span>
-      </div>
-    </div>
-  </div>
-</div>
